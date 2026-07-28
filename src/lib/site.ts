@@ -1,4 +1,5 @@
 export const siteUrl = "https://ciracomercial.com";
+export const mapUrl = "";
 
 export const business = {
   name: "Cira Comercial",
