@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+/.pnpm-store
+
+# Next.js
+/.next
+/out
+
+# production
+/build
+
+# local environment files
+.env*
+
+# logs
+*.log
+
+# OS files
+.DS_Store
