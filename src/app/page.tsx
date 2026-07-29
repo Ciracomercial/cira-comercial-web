@@ -3,6 +3,7 @@ import { FaqAccordion } from "../components/faq-accordion";
 import { Catalog } from "../components/catalog";
 import { SiteHeader } from "../components/site-header";
 import { Reveal } from "../components/reveal";
+import { catalogProducts } from "../lib/products";
 import { business, mapUrl, siteUrl, whatsappUrl } from "../lib/site";
 
 const solutions = [
@@ -157,7 +158,7 @@ export default function Home() {
           <h2 id="categories-title">Productos y categorías para cada necesidad.</h2>
           <p>Encuentra opciones para limpieza diaria, suministros institucionales y necesidades especializadas.</p>
         </Reveal>
-        <Reveal className="container" delay={70}><Catalog /></Reveal>
+        <Reveal className="container" delay={70}><Catalog products={catalogProducts} /></Reveal>
       </section>
 
       <section className="coverage section" id="cobertura" aria-labelledby="coverage-title">

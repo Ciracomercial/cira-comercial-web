@@ -4,31 +4,13 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { Reveal } from "./reveal";
 import { whatsappUrl } from "../lib/site";
+import type { CatalogFilter, CatalogProduct } from "../lib/products";
 
-type Filter = "Todos" | "Hogar" | "Industria" | "Automotriz" | "Papel y desechables" | "Herramientas";
+const filters: CatalogFilter[] = ["Todos", "Hogar", "Industria", "Automotriz", "Papel y desechables", "Herramientas"];
 
-type Product = {
-  category: Exclude<Filter, "Todos">;
-  title: string;
-  description: string;
-  image: string;
-  features: string[];
-};
-
-const filters: Filter[] = ["Todos", "Hogar", "Industria", "Automotriz", "Papel y desechables", "Herramientas"];
-
-const products: Product[] = [
-  { category: "Automotriz", title: "Desengrasantes", description: "Poder concentrado para eliminar grasa y suciedad difícil.", image: "/assets/products/brillo-llantas.jpeg", features: ["Poder concentrado", "Limpieza de suciedad difícil", "Uso especializado"] },
-  { category: "Hogar", title: "Limpieza de hogar", description: "Fórmulas para cada superficie y cada rutina diaria.", image: "/assets/products/limpiadores-estante.jpeg", features: ["Uso diario", "Opciones para cada superficie", "Espacios limpios y frescos"] },
-  { category: "Papel y desechables", title: "Papel y desechables", description: "Practicidad, higiene y calidad para tu negocio u hogar.", image: "/assets/products/surtido-tienda.jpeg", features: ["Productos de higiene", "Opciones para hogar y negocio", "Calidad para uso cotidiano"] },
-  { category: "Hogar", title: "Jabones y detergentes", description: "Rendimiento y cuidado para ropa, manos y más.", image: "/assets/products/jabon-mama.jpeg", features: ["Cuidado para ropa y manos", "Variedad de opciones", "Rendimiento para uso diario"] },
-  { category: "Herramientas", title: "Herramientas de limpieza", description: "Accesorios que hacen el trabajo más fácil y eficiente.", image: "/assets/business/interior-tienda.jpg", features: ["Accesorios de limpieza", "Soluciones prácticas", "Opciones para cada tarea"] },
-  { category: "Industria", title: "Productos especializados", description: "Opciones para autos, oficinas, industria y necesidades puntuales.", image: "/assets/products/detergentes.jpeg", features: ["Uso especializado", "Opciones para industria", "Soluciones para necesidades puntuales"] },
-];
-
-export function Catalog() {
-  const [activeFilter, setActiveFilter] = useState<Filter>("Todos");
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+export function Catalog({ products }: { products: CatalogProduct[] }) {
+  const [activeFilter, setActiveFilter] = useState<CatalogFilter>("Todos");
+  const [selectedProduct, setSelectedProduct] = useState<CatalogProduct | null>(null);
   const triggerRef = useRef<HTMLButtonElement | null>(null);
   const modalRef = useRef<HTMLElement | null>(null);
   const visibleProducts = activeFilter === "Todos" ? products : products.filter((product) => product.category === activeFilter);
@@ -59,7 +41,7 @@ export function Catalog() {
     };
   }, [selectedProduct]);
 
-  const openProduct = (product: Product, trigger: HTMLButtonElement) => {
+  const openProduct = (product: CatalogProduct, trigger: HTMLButtonElement) => {
     triggerRef.current = trigger;
     setSelectedProduct(product);
   };
