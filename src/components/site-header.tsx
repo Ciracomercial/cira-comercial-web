@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { whatsappUrl } from "../lib/site";
 
 const navigation = [
@@ -17,6 +18,8 @@ const navigation = [
 export function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const menuToggleRef = useRef<HTMLButtonElement>(null);
+  const pathname = usePathname();
 
   const closeMenu = () => setIsOpen(false);
 
@@ -32,7 +35,10 @@ export function SiteHeader() {
 
     const previousOverflow = document.body.style.overflow;
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") closeMenu();
+      if (event.key === "Escape") {
+        closeMenu();
+        requestAnimationFrame(() => menuToggleRef.current?.focus());
+      }
     };
 
     document.body.style.overflow = "hidden";
@@ -53,13 +59,13 @@ export function SiteHeader() {
         </Link>
 
         <nav id="primary-navigation" className={isOpen ? "primary-nav is-open" : "primary-nav"} aria-label="Navegación principal">
-          {navigation.map(([label, href]) => href.startsWith("/") ? <Link key={href} href={href} onClick={closeMenu}>{label}</Link> : <a key={href} href={href} onClick={closeMenu}>{label}</a>)}
-          <a className="button button-primary nav-quote" href={whatsappUrl} target="_blank" rel="noreferrer" onClick={closeMenu}>
+          {navigation.map(([label, href]) => <Link key={href} href={href} onClick={closeMenu} aria-current={href === pathname ? "page" : undefined}>{label}</Link>)}
+          <a className="button button-primary nav-quote" href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
             Cotizar por WhatsApp
           </a>
         </nav>
 
-        <button className={isOpen ? "menu-toggle is-open" : "menu-toggle"} type="button" aria-label={isOpen ? "Cerrar menú de navegación" : "Abrir menú de navegación"} aria-expanded={isOpen} aria-controls="primary-navigation" onClick={() => setIsOpen(!isOpen)}>
+        <button ref={menuToggleRef} className={isOpen ? "menu-toggle is-open" : "menu-toggle"} type="button" aria-label={isOpen ? "Cerrar menú de navegación" : "Abrir menú de navegación"} aria-expanded={isOpen} aria-controls="primary-navigation" onClick={() => setIsOpen(!isOpen)}>
           <span className="sr-only">{isOpen ? "Cerrar" : "Abrir"} menú</span>
           <span /><span /><span />
         </button>

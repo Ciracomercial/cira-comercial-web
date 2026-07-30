@@ -11,8 +11,17 @@ import { business, googleMapsUrl, siteUrl, whatsappUrl } from "../lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "Productos de limpieza en Nuevo Casas Grandes | Cira Comercial" },
-  description: "Encuentra productos de limpieza, jarciería, desechables, papel institucional y soluciones para hogar, negocio e industria en Cira Comercial.",
+  description: "Productos de limpieza para hogar, negocio e industria en Nuevo Casas Grandes. Cira Comercial ofrece jarciería, desechables y atención personalizada.",
   alternates: { canonical: "/" },
+  openGraph: {
+    title: "Productos de limpieza en Nuevo Casas Grandes | Cira Comercial",
+    description: "Productos de limpieza para hogar, negocio e industria en Nuevo Casas Grandes. Cira Comercial ofrece jarciería, desechables y atención personalizada.",
+    url: "/",
+  },
+  twitter: {
+    title: "Productos de limpieza en Nuevo Casas Grandes | Cira Comercial",
+    description: "Productos de limpieza para hogar, negocio e industria en Nuevo Casas Grandes. Cira Comercial ofrece jarciería, desechables y atención personalizada.",
+  },
 };
 
 const solutions = [
@@ -66,7 +75,7 @@ const structuredData = {
         "@type": "ContactPoint",
         telephone: business.phone,
         contactType: "sales",
-        availableLanguage: "Spanish",
+        availableLanguage: "es",
       },
       address: {
         "@type": "PostalAddress",
@@ -95,10 +104,11 @@ const structuredData = {
 
 export default function Home() {
   return (
-    <main>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
+    <>
       <SiteHeader />
-      <HeroCarousel />
+      <main>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
+        <HeroCarousel />
 
       <section className="proof section" aria-labelledby="proof-title">
         <Reveal className="container proof-grid">
@@ -154,7 +164,7 @@ export default function Home() {
             <h2 id="coverage-title">Productos de limpieza con atención local</h2>
             <p>En Cira Comercial atendemos hogares, oficinas, restaurantes, escuelas, talleres y negocios de Nuevo Casas Grandes. Contamos con productos de limpieza, papel, desechables, jarciería y soluciones para uso diario o compras por volumen.</p>
             <ul className="coverage-list"><li>Atención personalizada</li><li>Entregas locales</li><li>Facturación disponible</li></ul>
-            <a className="button button-primary" href={whatsappUrl} target="_blank" rel="noreferrer">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
+            <a className="button button-primary" href={whatsappUrl} target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
           </div>
           <div className="coverage-image"><Image src="/assets/business/interior-tienda.jpg" alt="Interior de la sucursal de Cira Comercial" fill sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 900px) calc(100vw - 64px), 50vw" quality={80} /></div>
         </Reveal>
@@ -170,15 +180,15 @@ export default function Home() {
       <section className="final-cta">
         <Reveal className="container final-cta-content">
           <p className="eyebrow">De sucio a impecable</p>
-          <h2>Haz tu pedido hoy y recibe productos de alto rendimiento.</h2>
-          <p>Para tu hogar, oficina o industria. Estamos listos para atenderte.</p>
-          <a className="button button-light" href={whatsappUrl} target="_blank" rel="noreferrer">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
+          <h2>¿Listo para hacer tu pedido?</h2>
+          <p>Escríbenos por WhatsApp y te ayudamos a revisar opciones, presentaciones y disponibilidad.</p>
+          <a className="button button-light" href={whatsappUrl} target="_blank" rel="noopener noreferrer">Cotizar ahora <span aria-hidden="true">→</span></a>
         </Reveal>
       </section>
 
-      <LocationMap />
-
+        <LocationMap />
+      </main>
       <SiteFooter />
-    </main>
+    </>
   );
 }

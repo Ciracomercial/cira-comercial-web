@@ -5,10 +5,21 @@ import { useCallback, useEffect, useState, type PointerEvent } from "react";
 import { whatsappUrl } from "../lib/site";
 
 const heroSlides = [
-  { image: "/assets/business/interior-tienda.jpg", alt: "Interior de Cira Comercial con productos de limpieza y desechables", position: "center" },
-  { image: "/assets/products/limpiadores-estante.jpeg", alt: "Estante con productos de limpieza disponibles en Cira Comercial", position: "center" },
-  { image: "/assets/products/surtido-tienda.jpeg", alt: "Surtido de productos y desechables para hogar y negocio", position: "center" },
-  { image: "/assets/products/detergentes.jpeg", alt: "Productos de limpieza y detergentes disponibles en Cira Comercial", position: "center" },
+  {
+    image: "/assets/hero/hero-01.svg",
+    alt: "Productos de limpieza y desechables disponibles en Cira Comercial",
+    objectPosition: "center",
+  },
+  {
+    image: "/assets/hero/hero-02.svg",
+    alt: "Surtido de productos de limpieza para hogar y negocio",
+    objectPosition: "65% center",
+  },
+  {
+    image: "/assets/hero/hero-03.svg",
+    alt: "Artículos de limpieza y jarciería en exhibición en Cira Comercial",
+    objectPosition: "center 40%",
+  },
 ] as const;
 
 const SLIDE_INTERVAL = 5000;
@@ -68,7 +79,7 @@ export function HeroCarousel() {
       <div className="hero-carousel-slides" aria-live="off">
         {heroSlides.map((slide, index) => (
           <div className={index === activeSlide ? "hero-slide is-active" : "hero-slide"} key={slide.image} aria-hidden={index !== activeSlide}>
-            <Image src={slide.image} alt={index === activeSlide ? slide.alt : ""} fill priority={index === 0} loading={index === 0 ? undefined : "lazy"} sizes="100vw" quality={80} style={{ objectPosition: slide.position }} />
+            <Image src={slide.image} alt={index === activeSlide ? slide.alt : ""} fill priority={index === 0} loading={index === 0 ? undefined : "lazy"} sizes="100vw" quality={80} style={{ objectPosition: slide.objectPosition }} />
           </div>
         ))}
       </div>
@@ -79,8 +90,13 @@ export function HeroCarousel() {
           <p className="eyebrow">Limpieza que sí rinde</p>
           <h1 id="hero-title">Productos de limpieza para <em>tu hogar y negocio</em></h1>
           <p className="hero-description">Encuentra productos confiables, atención personalizada y entregas locales en Nuevo Casas Grandes, Chihuahua.</p>
+          <ul className="hero-benefits" aria-label="Beneficios de Cira Comercial">
+            <li>Atención personalizada</li>
+            <li>Entrega local</li>
+            <li>Facturación disponible</li>
+          </ul>
           <div className="hero-actions">
-            <a className="button button-primary" href={whatsappUrl} target="_blank" rel="noreferrer">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
+            <a className="button button-primary" href={whatsappUrl} target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
             <a className="button button-secondary hero-catalog-button" href="#categorias">Ver catálogo</a>
           </div>
           <p className="trust-line"><span>★</span> Atención local para compras de todos los tamaños</p>
