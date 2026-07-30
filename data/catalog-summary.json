@@ -1,0 +1,12 @@
+{
+  "version": "5.0",
+  "source": "Base_Comercial_Cira_V4.xlsx",
+  "products": 798,
+  "variants": 866,
+  "categories": 8,
+  "subcategories": 28,
+  "brands": 49,
+  "featuredProducts": 45,
+  "manualReviewProducts": 591,
+  "publicationRule": "Todos los productos se conservan; únicamente se retiran cuando su estado sea descontinuado."
+}

@@ -1,5 +1,8 @@
 export const siteUrl = "https://ciracomercial.com";
 export const mapUrl = "";
+export const googleMapsUrl = "https://maps.app.goo.gl/SgehuHYHtk4aCfpo7";
+export const privacyNoticeLastUpdated = "29 de julio de 2026";
+export const siteLastModified = new Date("2026-07-29T00:00:00.000Z");
 
 export const business = {
   name: "Cira Comercial",

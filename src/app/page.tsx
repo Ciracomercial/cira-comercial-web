@@ -1,26 +1,38 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { FaqAccordion } from "../components/faq-accordion";
-import { Catalog } from "../components/catalog";
+import { ProductCategoryGrid } from "../components/product-category-grid";
 import { SiteHeader } from "../components/site-header";
+import { HeroCarousel } from "../components/hero-carousel";
+import { SiteFooter } from "../components/site-footer";
 import { Reveal } from "../components/reveal";
-import { catalogProducts } from "../lib/products";
-import { business, mapUrl, siteUrl, whatsappUrl } from "../lib/site";
+import { LocationMap } from "../components/location-map";
+import { business, googleMapsUrl, siteUrl, whatsappUrl } from "../lib/site";
+
+export const metadata: Metadata = {
+  title: { absolute: "Productos de limpieza en Nuevo Casas Grandes | Cira Comercial" },
+  description: "Encuentra productos de limpieza, jarciería, desechables, papel institucional y soluciones para hogar, negocio e industria en Cira Comercial.",
+  alternates: { canonical: "/" },
+};
 
 const solutions = [
   {
     icon: "⌂",
     title: "Para el hogar",
     text: "Todo para mantener tus espacios limpios, frescos y listos para disfrutar.",
+    items: ["Limpieza para uso diario", "Presentaciones prácticas", "Atención en sucursal"],
   },
   {
     icon: "▦",
     title: "Para negocios",
     text: "Higiene confiable y suministros que ayudan a que tu operación no se detenga.",
+    items: ["Compras por volumen", "Facturación disponible", "Pedidos recurrentes"],
   },
   {
     icon: "▥",
     title: "Para industria",
     text: "Soluciones de alto rendimiento para limpieza exigente y uso profesional.",
+    items: ["Presentaciones de alto volumen", "Productos de alto rendimiento", "Cotizaciones personalizadas"],
   },
 ];
 
@@ -29,13 +41,18 @@ const faqs = [
   { question: "¿Cuál es el monto mínimo de compra?", answer: "Para entregas a domicilio manejamos un pedido mínimo de $500 pesos. Si compras con frecuencia, podemos ayudarte con una solución personalizada." },
   { question: "¿Aceptan pagos en efectivo, transferencia o tarjeta?", answer: "Sí, aceptamos efectivo, transferencia bancaria, tarjeta de crédito o débito y pago en línea." },
   { question: "¿Emiten factura?", answer: "Sí. Emitimos factura electrónica (CFDI) para empresas, negocios y clientes que requieran comprobante fiscal." },
+  { question: "¿Dónde se encuentra la sucursal?", answer: "Nuestra sucursal se encuentra en Jesús Urueta 404, Col. Centro, C.P. 31700, Nuevo Casas Grandes, Chihuahua." },
+  { question: "¿Qué zonas cubren las entregas?", answer: "Realizamos entregas locales en Nuevo Casas Grandes y alrededores. Escríbenos para consultar la disponibilidad de entrega." },
+  { question: "¿Manejan ventas por mayoreo?", answer: "Sí, atendemos compras al menudeo y mayoreo para hogares, negocios e industria." },
+  { question: "¿Puedo solicitar productos que no aparecen en el catálogo?", answer: "Sí. Contáctanos por WhatsApp para consultar disponibilidad y encontrar una opción adecuada para tu necesidad." },
+  { question: "¿Qué presentaciones manejan?", answer: "Las presentaciones varían según el producto. Puedes consultarlas en cada ficha o pedir orientación por WhatsApp." },
 ];
 
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Store",
+      "@type": "LocalBusiness",
       "@id": `${siteUrl}/#business`,
       name: business.name,
       url: siteUrl,
@@ -44,8 +61,7 @@ const structuredData = {
       description: "Productos de limpieza, desechables y soluciones para hogar, negocio e industria en Nuevo Casas Grandes, Chihuahua.",
       telephone: business.phone,
       email: business.email,
-      // Confirm this provisional price range before publishing.
-      priceRange: "$",
+      hasMap: googleMapsUrl,
       contactPoint: {
         "@type": "ContactPoint",
         telephone: business.phone,
@@ -65,15 +81,6 @@ const structuredData = {
         { "@type": "OpeningHoursSpecification", dayOfWeek: business.hours.weekdays.days, opens: business.hours.weekdays.opens, closes: business.hours.weekdays.closes },
         { "@type": "OpeningHoursSpecification", dayOfWeek: business.hours.saturday.days, opens: business.hours.saturday.opens, closes: business.hours.saturday.closes },
       ],
-      hasOfferCatalog: {
-        "@type": "OfferCatalog",
-        name: "Productos de limpieza y desechables",
-        itemListElement: [
-          { "@type": "OfferCatalog", name: "Productos para hogar" },
-          { "@type": "OfferCatalog", name: "Productos para negocio e industria" },
-          { "@type": "OfferCatalog", name: "Desengrasantes y productos institucionales de limpieza" },
-        ],
-      },
     },
     {
       "@type": "FAQPage",
@@ -91,28 +98,7 @@ export default function Home() {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
       <SiteHeader />
-      <section className="hero" id="inicio" aria-labelledby="hero-title">
-        <div className="container hero-grid">
-          <Reveal className="hero-copy">
-            <p className="eyebrow">Limpieza que sí rinde</p>
-            <h1 id="hero-title">Productos de limpieza para <em>hogar, negocio e industria en Nuevo Casas Grandes.</em></h1>
-            <p className="hero-description">
-              Productos confiables, atención cercana y entregas locales en Nuevo Casas Grandes.
-            </p>
-            <div className="hero-actions">
-              <a className="button button-primary" href={whatsappUrl} target="_blank" rel="noreferrer">
-                Cotizar por WhatsApp <span aria-hidden="true">→</span>
-              </a>
-              <a className="button button-secondary" href="#categorias">Ver catálogo</a>
-            </div>
-            <p className="trust-line"><span>★</span> Atención local para compras de todos los tamaños</p>
-          </Reveal>
-          <Reveal className="hero-media" delay={80}>
-            <Image src="/assets/business/interior-tienda.jpg" alt="Interior de Cira Comercial con productos de limpieza y desechables" fill priority sizes="(max-width: 900px) 100vw, 50vw" />
-            <div className="hero-badge"><strong>+500</strong><span>clientes atendidos</span></div>
-          </Reveal>
-        </div>
-      </section>
+      <HeroCarousel />
 
       <section className="proof section" aria-labelledby="proof-title">
         <Reveal className="container proof-grid">
@@ -123,8 +109,8 @@ export default function Home() {
           </div>
           <div className="stats">
             <div><strong>4.9/5</strong><span>calificación en Google</span></div>
-            <div><strong>+500</strong><span>clientes atendidos</span></div>
-            <div><strong>Local</strong><span>entregas en NCG y alrededores</span></div>
+            <div><strong>11 categorías</strong><span>para hogar, negocio e industria</span></div>
+            <div><strong>Atención local</strong><span>en Nuevo Casas Grandes</span></div>
           </div>
         </Reveal>
         <div className="container testimonial-grid">
@@ -145,7 +131,7 @@ export default function Home() {
               <span className="solution-icon" aria-hidden="true">{solution.icon}</span>
               <h3>{solution.title}</h3>
               <p>{solution.text}</p>
-              <ul><li>Atención personalizada</li><li>Productos de calidad</li><li>Entrega local disponible</li></ul>
+              <ul>{solution.items.map((item) => <li key={item}>{item}</li>)}</ul>
             </article>
             </Reveal>
           ))}
@@ -155,20 +141,22 @@ export default function Home() {
       <section className="catalog section" id="categorias" aria-labelledby="categories-title">
         <Reveal className="container section-heading centered">
           <p className="eyebrow">Nuestro catálogo</p>
-          <h2 id="categories-title">Productos y categorías para cada necesidad.</h2>
-          <p>Encuentra opciones para limpieza diaria, suministros institucionales y necesidades especializadas.</p>
+          <h2 id="categories-title">Categorías para cada necesidad.</h2>
+          <p>Explora nuestras principales líneas de productos para hogar, negocio e industria.</p>
         </Reveal>
-        <Reveal className="container" delay={70}><Catalog products={catalogProducts} /></Reveal>
+        <Reveal className="container" delay={70}><ProductCategoryGrid /></Reveal>
       </section>
 
       <section className="coverage section" id="cobertura" aria-labelledby="coverage-title">
-        <Reveal className="container coverage-content">
-          <p className="eyebrow">Atención local</p>
-          <h2 id="coverage-title">Productos de limpieza y entregas locales en Nuevo Casas Grandes</h2>
-          <p>En Cira Comercial atendemos necesidades de limpieza para el hogar, restaurantes, oficinas, escuelas, talleres, comercios e industria en Nuevo Casas Grandes y sus alrededores. Nuestro surtido está pensado para resolver desde la rutina diaria de una casa hasta el abastecimiento constante de espacios con mayor movimiento, con alternativas que se adaptan a cada tipo de uso.</p>
-          <p>Encuentra detergentes, desengrasantes, papel, desechables y herramientas de limpieza para mantener áreas de trabajo, cocinas, baños, pisos y superficies en buenas condiciones. Si buscas productos institucionales o una opción práctica para tu negocio, te orientamos de forma clara para elegir lo que mejor se ajuste a tu necesidad, sin complicar el proceso de compra.</p>
-          <p>Ofrecemos atención personalizada y entregas locales para que puedas organizar tus compras con mayor facilidad. También podemos ayudarte a reunir productos de distintas categorías en un mismo pedido, ya sea para reabastecer un espacio de trabajo o resolver una compra puntual, con respuesta cercana, práctica y enfocada en tus tiempos de operación. Escríbenos por WhatsApp para solicitar una cotización, consultar disponibilidad o coordinar la entrega de productos para tu hogar, negocio o actividad industrial.</p>
-          <a className="button button-primary" href={whatsappUrl} target="_blank" rel="noreferrer">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
+        <Reveal className="container coverage-grid">
+          <div className="coverage-content">
+            <p className="eyebrow">Atención local</p>
+            <h2 id="coverage-title">Productos de limpieza con atención local</h2>
+            <p>En Cira Comercial atendemos hogares, oficinas, restaurantes, escuelas, talleres y negocios de Nuevo Casas Grandes. Contamos con productos de limpieza, papel, desechables, jarciería y soluciones para uso diario o compras por volumen.</p>
+            <ul className="coverage-list"><li>Atención personalizada</li><li>Entregas locales</li><li>Facturación disponible</li></ul>
+            <a className="button button-primary" href={whatsappUrl} target="_blank" rel="noreferrer">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
+          </div>
+          <div className="coverage-image"><Image src="/assets/business/interior-tienda.jpg" alt="Interior de la sucursal de Cira Comercial" fill sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 900px) calc(100vw - 64px), 50vw" quality={80} /></div>
         </Reveal>
       </section>
 
@@ -188,16 +176,9 @@ export default function Home() {
         </Reveal>
       </section>
 
-      <footer id="contacto">
-        <h2 className="sr-only">Contacto</h2>
-        <div className="container footer-grid">
-          <div className="footer-brand"><Image className="footer-logo" src="/assets/branding/cira-logo.png" alt="Cira Comercial" width={64} height={64} /><p>Proveedor confiable de productos de limpieza, higiene y desechables en Nuevo Casas Grandes.</p></div>
-          <div><h3>Horario de atención</h3><p>{business.hours.weekdays.display}<br />{business.hours.saturday.display}</p></div>
-          <div><h3>Contacto</h3>{mapUrl ? <a href={mapUrl} target="_blank" rel="noreferrer">{business.streetAddress}<br />C.P. {business.postalCode}, {business.city}, {business.state}</a> : <p>{business.streetAddress}<br />C.P. {business.postalCode}, {business.city}, {business.state}</p>}<a href={`tel:${business.phone}`}>{business.phoneDisplay}</a><a href={`mailto:${business.email}`}>{business.email}</a></div>
-          <div className="footer-contact"><a className="whatsapp-link" href={whatsappUrl} target="_blank" rel="noreferrer">WhatsApp<br /><strong>{business.phoneDisplay}</strong></a></div>
-        </div>
-        <div className="container copyright">© {new Date().getFullYear()} Cira Comercial. Todos los derechos reservados.</div>
-      </footer>
+      <LocationMap />
+
+      <SiteFooter />
     </main>
   );
 }

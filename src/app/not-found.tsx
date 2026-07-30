@@ -10,6 +10,7 @@ export default function NotFound() {
         <p>Regresa al inicio para conocer nuestros productos de limpieza y desechables.</p>
         <div className="not-found-actions">
           <Link className="button button-secondary" href="/">Volver al inicio</Link>
+          <Link className="button button-secondary" href="/productos">Ver productos</Link>
           <a className="button button-primary" href={whatsappUrl} target="_blank" rel="noreferrer">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
         </div>
       </section>

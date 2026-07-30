@@ -5,15 +5,28 @@
 # Next.js
 /.next
 /out
+*.tsbuildinfo
+
+# caches and temporary files
+/.cache
+/.turbo
+coverage
 
 # production
 /build
 
 # local environment files
 .env*
+!.env.example
 
 # logs
 *.log
 
 # OS files
 .DS_Store
+
+# archivos de trabajo y respaldos
+*.zip
+*.xlsx
+*.xls
+Cira_V5_NextJS/

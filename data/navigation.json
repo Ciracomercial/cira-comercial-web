@@ -1,0 +1,194 @@
+{
+  "main": [
+    {
+      "label": "Inicio",
+      "href": "/"
+    },
+    {
+      "label": "Productos",
+      "href": "/productos"
+    },
+    {
+      "label": "Categorías",
+      "href": "/categorias"
+    },
+    {
+      "label": "Marcas",
+      "href": "/marcas"
+    },
+    {
+      "label": "Nosotros",
+      "href": "/nosotros"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Contacto",
+      "href": "/contacto"
+    }
+  ],
+  "catalog": [
+    {
+      "name": "Albercas",
+      "slug": "albercas",
+      "subcategories": [
+        {
+          "name": "Accesorios para alberca",
+          "slug": "accesorios-para-alberca"
+        },
+        {
+          "name": "Albercas",
+          "slug": "albercas"
+        },
+        {
+          "name": "Tratamiento de agua",
+          "slug": "tratamiento-de-agua"
+        }
+      ]
+    },
+    {
+      "name": "Aromatización",
+      "slug": "aromatizacion",
+      "subcategories": [
+        {
+          "name": "Aromatización",
+          "slug": "aromatizacion"
+        },
+        {
+          "name": "Aromatizantes",
+          "slug": "aromatizantes"
+        }
+      ]
+    },
+    {
+      "name": "Bolsas y empaques",
+      "slug": "bolsas-y-empaques",
+      "subcategories": [
+        {
+          "name": "Bolsas para basura",
+          "slug": "bolsas-para-basura"
+        },
+        {
+          "name": "Bolsas y empaques",
+          "slug": "bolsas-y-empaques"
+        }
+      ]
+    },
+    {
+      "name": "Desechables",
+      "slug": "desechables",
+      "subcategories": [
+        {
+          "name": "Contenedores y charolas",
+          "slug": "contenedores-y-charolas"
+        },
+        {
+          "name": "Cubiertos",
+          "slug": "cubiertos"
+        },
+        {
+          "name": "Desechables",
+          "slug": "desechables"
+        },
+        {
+          "name": "Platos",
+          "slug": "platos"
+        },
+        {
+          "name": "Vasos",
+          "slug": "vasos"
+        }
+      ]
+    },
+    {
+      "name": "Equipo de limpieza",
+      "slug": "equipo-de-limpieza",
+      "subcategories": [
+        {
+          "name": "Cepillos y fibras",
+          "slug": "cepillos-y-fibras"
+        },
+        {
+          "name": "Cubetas y recipientes",
+          "slug": "cubetas-y-recipientes"
+        },
+        {
+          "name": "Equipo de limpieza",
+          "slug": "equipo-de-limpieza"
+        },
+        {
+          "name": "Jaladores",
+          "slug": "jaladores"
+        },
+        {
+          "name": "Trapeadores y mops",
+          "slug": "trapeadores-y-mops"
+        }
+      ]
+    },
+    {
+      "name": "Otros productos",
+      "slug": "otros-productos",
+      "subcategories": [
+        {
+          "name": "Otros productos",
+          "slug": "otros-productos"
+        }
+      ]
+    },
+    {
+      "name": "Papel institucional",
+      "slug": "papel-institucional",
+      "subcategories": [
+        {
+          "name": "Papel higiénico",
+          "slug": "papel-higienico"
+        },
+        {
+          "name": "Papel institucional",
+          "slug": "papel-institucional"
+        },
+        {
+          "name": "Toallas de papel",
+          "slug": "toallas-de-papel"
+        }
+      ]
+    },
+    {
+      "name": "Químicos de limpieza",
+      "slug": "quimicos-de-limpieza",
+      "subcategories": [
+        {
+          "name": "Cloros y blanqueadores",
+          "slug": "cloros-y-blanqueadores"
+        },
+        {
+          "name": "Desengrasantes",
+          "slug": "desengrasantes"
+        },
+        {
+          "name": "Jabón para manos",
+          "slug": "jabon-para-manos"
+        },
+        {
+          "name": "Lavatrastes",
+          "slug": "lavatrastes"
+        },
+        {
+          "name": "Limpiadores multiusos",
+          "slug": "limpiadores-multiusos"
+        },
+        {
+          "name": "Químicos de limpieza",
+          "slug": "quimicos-de-limpieza"
+        },
+        {
+          "name": "Suavizantes",
+          "slug": "suavizantes"
+        }
+      ]
+    }
+  ]
+}

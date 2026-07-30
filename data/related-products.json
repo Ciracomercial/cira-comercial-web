@@ -1,0 +1,7982 @@
+[
+  {
+    "productId": "PROD-0001",
+    "related": [
+      "PROD-0002",
+      "PROD-0003",
+      "PROD-0004",
+      "PROD-0005"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0002",
+    "related": [
+      "PROD-0001",
+      "PROD-0003",
+      "PROD-0004",
+      "PROD-0005"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0003",
+    "related": [
+      "PROD-0001",
+      "PROD-0002",
+      "PROD-0004",
+      "PROD-0005"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0004",
+    "related": [
+      "PROD-0001",
+      "PROD-0002",
+      "PROD-0003",
+      "PROD-0005"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0005",
+    "related": [
+      "PROD-0001",
+      "PROD-0002",
+      "PROD-0003",
+      "PROD-0004"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0006",
+    "related": [
+      "PROD-0001",
+      "PROD-0002",
+      "PROD-0003",
+      "PROD-0004"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0007",
+    "related": [
+      "PROD-0008",
+      "PROD-0009",
+      "PROD-0001",
+      "PROD-0002"
+    ],
+    "criterion": "Misma subcategoría y división"
+  },
+  {
+    "productId": "PROD-0008",
+    "related": [
+      "PROD-0007",
+      "PROD-0009",
+      "PROD-0001",
+      "PROD-0002"
+    ],
+    "criterion": "Misma subcategoría y división"
+  },
+  {
+    "productId": "PROD-0009",
+    "related": [
+      "PROD-0007",
+      "PROD-0008",
+      "PROD-0001",
+      "PROD-0002"
+    ],
+    "criterion": "Misma subcategoría y división"
+  },
+  {
+    "productId": "PROD-0010",
+    "related": [
+      "PROD-0011",
+      "PROD-0016",
+      "PROD-0013",
+      "PROD-0014"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0011",
+    "related": [
+      "PROD-0010",
+      "PROD-0016",
+      "PROD-0013",
+      "PROD-0014"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0012",
+    "related": [
+      "PROD-0010",
+      "PROD-0011",
+      "PROD-0013",
+      "PROD-0014"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0013",
+    "related": [
+      "PROD-0010",
+      "PROD-0011",
+      "PROD-0016",
+      "PROD-0014"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0014",
+    "related": [
+      "PROD-0010",
+      "PROD-0011",
+      "PROD-0016",
+      "PROD-0013"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0015",
+    "related": [
+      "PROD-0010",
+      "PROD-0011",
+      "PROD-0016",
+      "PROD-0013"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0016",
+    "related": [
+      "PROD-0010",
+      "PROD-0011",
+      "PROD-0016",
+      "PROD-0013"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0017",
+    "related": [
+      "PROD-0010",
+      "PROD-0011",
+      "PROD-0016",
+      "PROD-0013"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0018",
+    "related": [
+      "PROD-0010",
+      "PROD-0011",
+      "PROD-0016",
+      "PROD-0013"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0019",
+    "related": [
+      "PROD-0023",
+      "PROD-0022",
+      "PROD-0022",
+      "PROD-0023"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0020",
+    "related": [
+      "PROD-0019",
+      "PROD-0022",
+      "PROD-0022",
+      "PROD-0023"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0021",
+    "related": [
+      "PROD-0019",
+      "PROD-0023",
+      "PROD-0022",
+      "PROD-0023"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0022",
+    "related": [
+      "PROD-0019",
+      "PROD-0023",
+      "PROD-0022",
+      "PROD-0023"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0023",
+    "related": [
+      "PROD-0019",
+      "PROD-0023",
+      "PROD-0022",
+      "PROD-0022"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0024",
+    "related": [
+      "PROD-0019",
+      "PROD-0023",
+      "PROD-0022",
+      "PROD-0022"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0025",
+    "related": [
+      "PROD-0019",
+      "PROD-0023",
+      "PROD-0022",
+      "PROD-0022"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0026",
+    "related": [
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029",
+      "PROD-0030"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0027",
+    "related": [
+      "PROD-0026",
+      "PROD-0037",
+      "PROD-0029",
+      "PROD-0030"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0028",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0029",
+      "PROD-0030"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0029",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0030"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0030",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0031",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0032",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0033",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0034",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0035",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0036",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0037",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0038",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0039",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0040",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0041",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0042",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0043",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0044",
+    "related": [
+      "PROD-0026",
+      "PROD-0036",
+      "PROD-0037",
+      "PROD-0029"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0045",
+    "related": [
+      "PROD-0046",
+      "PROD-0047",
+      "PROD-0048",
+      "PROD-0049"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0046",
+    "related": [
+      "PROD-0048",
+      "PROD-0047",
+      "PROD-0048",
+      "PROD-0049"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0047",
+    "related": [
+      "PROD-0048",
+      "PROD-0046",
+      "PROD-0048",
+      "PROD-0049"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0048",
+    "related": [
+      "PROD-0048",
+      "PROD-0046",
+      "PROD-0047",
+      "PROD-0049"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0049",
+    "related": [
+      "PROD-0048",
+      "PROD-0046",
+      "PROD-0047",
+      "PROD-0048"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0050",
+    "related": [
+      "PROD-0048",
+      "PROD-0046",
+      "PROD-0047",
+      "PROD-0048"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0051",
+    "related": [
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054",
+      "PROD-0055"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0052",
+    "related": [
+      "PROD-0051",
+      "PROD-0053",
+      "PROD-0054",
+      "PROD-0055"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0053",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0054",
+      "PROD-0055"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0054",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0055"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0055",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0056",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0057",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0058",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0059",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0060",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0061",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0062",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0063",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0064",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0065",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0066",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0067",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0068",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0069",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0070",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0071",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0072",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0073",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0074",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0075",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0076",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0077",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0078",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0079",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0080",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0081",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0082",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0083",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0084",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0085",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0086",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0087",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0088",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0089",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0090",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0091",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0092",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0093",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0094",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0095",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0096",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0097",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0098",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0099",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0100",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0101",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0102",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0103",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0104",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0105",
+    "related": [
+      "PROD-0051",
+      "PROD-0052",
+      "PROD-0053",
+      "PROD-0054"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0106",
+    "related": [
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0109",
+      "PROD-0110"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0107",
+    "related": [
+      "PROD-0106",
+      "PROD-0108",
+      "PROD-0109",
+      "PROD-0110"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0108",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0109",
+      "PROD-0110"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0109",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0110"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0110",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0109"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0111",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0109"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0112",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0109"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0113",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0109"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0114",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0109"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0115",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0109"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0116",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0109"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0117",
+    "related": [
+      "PROD-0106",
+      "PROD-0107",
+      "PROD-0108",
+      "PROD-0109"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0118",
+    "related": [
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121",
+      "PROD-0122"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0119",
+    "related": [
+      "PROD-0118",
+      "PROD-0120",
+      "PROD-0121",
+      "PROD-0122"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0120",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0121",
+      "PROD-0122"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0121",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0122"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0122",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0123",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0124",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0125",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0126",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0127",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0128",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0129",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0130",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0131",
+    "related": [
+      "PROD-0118",
+      "PROD-0119",
+      "PROD-0120",
+      "PROD-0121"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0132",
+    "related": [
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135",
+      "PROD-0136"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0133",
+    "related": [
+      "PROD-0132",
+      "PROD-0134",
+      "PROD-0135",
+      "PROD-0136"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0134",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0135",
+      "PROD-0136"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0135",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0136"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0136",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0137",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0138",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0139",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0140",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0141",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0142",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0143",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0144",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0145",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0146",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0147",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0148",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0149",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0150",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0151",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0152",
+    "related": [
+      "PROD-0132",
+      "PROD-0133",
+      "PROD-0134",
+      "PROD-0135"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0153",
+    "related": [
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0156",
+      "PROD-0157"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0154",
+    "related": [
+      "PROD-0153",
+      "PROD-0155",
+      "PROD-0156",
+      "PROD-0157"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0155",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0156",
+      "PROD-0157"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0156",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0157"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0157",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0156"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0158",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0156"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0159",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0156"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0160",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0156"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0161",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0156"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0162",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0156"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0163",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0156"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0164",
+    "related": [
+      "PROD-0153",
+      "PROD-0154",
+      "PROD-0155",
+      "PROD-0156"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0165",
+    "related": [
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168",
+      "PROD-0192"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0166",
+    "related": [
+      "PROD-0194",
+      "PROD-0167",
+      "PROD-0168",
+      "PROD-0192"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0167",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0168",
+      "PROD-0192"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0168",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0192"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0169",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0170",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0171",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0172",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0173",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0174",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0175",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0176",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0177",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0178",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0179",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0180",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0181",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0182",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0183",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0184",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0185",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0186",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0187",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0188",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0189",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0190",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0191",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0192",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0193",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0194",
+    "related": [
+      "PROD-0194",
+      "PROD-0184",
+      "PROD-0167",
+      "PROD-0168"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0195",
+    "related": [
+      "PROD-0196",
+      "PROD-0197",
+      "PROD-0198",
+      "PROD-0199"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0196",
+    "related": [
+      "PROD-0195",
+      "PROD-0197",
+      "PROD-0198",
+      "PROD-0199"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0197",
+    "related": [
+      "PROD-0195",
+      "PROD-0196",
+      "PROD-0198",
+      "PROD-0199"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0198",
+    "related": [
+      "PROD-0195",
+      "PROD-0196",
+      "PROD-0197",
+      "PROD-0199"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0199",
+    "related": [
+      "PROD-0195",
+      "PROD-0196",
+      "PROD-0197",
+      "PROD-0198"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0200",
+    "related": [
+      "PROD-0195",
+      "PROD-0196",
+      "PROD-0197",
+      "PROD-0198"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0201",
+    "related": [
+      "PROD-0195",
+      "PROD-0196",
+      "PROD-0197",
+      "PROD-0198"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0202",
+    "related": [
+      "PROD-0195",
+      "PROD-0196",
+      "PROD-0197",
+      "PROD-0198"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0203",
+    "related": [
+      "PROD-0204",
+      "PROD-0205",
+      "PROD-0206",
+      "PROD-0207"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0204",
+    "related": [
+      "PROD-0203",
+      "PROD-0205",
+      "PROD-0206",
+      "PROD-0207"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0205",
+    "related": [
+      "PROD-0203",
+      "PROD-0204",
+      "PROD-0206",
+      "PROD-0207"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0206",
+    "related": [
+      "PROD-0203",
+      "PROD-0204",
+      "PROD-0205",
+      "PROD-0207"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0207",
+    "related": [
+      "PROD-0203",
+      "PROD-0204",
+      "PROD-0205",
+      "PROD-0206"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0208",
+    "related": [
+      "PROD-0203",
+      "PROD-0204",
+      "PROD-0205",
+      "PROD-0206"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0209",
+    "related": [
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212",
+      "PROD-0213"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0210",
+    "related": [
+      "PROD-0209",
+      "PROD-0211",
+      "PROD-0212",
+      "PROD-0213"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0211",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0212",
+      "PROD-0213"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0212",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0213"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0213",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0214",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0215",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0216",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0217",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0218",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0219",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0220",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0221",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0222",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0223",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0224",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0225",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0226",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0227",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0228",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0229",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0230",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0231",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0232",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0233",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0234",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0235",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0236",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0237",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0238",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0239",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0240",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0241",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0242",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0243",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0244",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0245",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0246",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0247",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0248",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0249",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0250",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0251",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0252",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0253",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0254",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0255",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0256",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0257",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0258",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0259",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0260",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0261",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0262",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0263",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0264",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0265",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0266",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0267",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0268",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0269",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0270",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0271",
+    "related": [
+      "PROD-0209",
+      "PROD-0210",
+      "PROD-0211",
+      "PROD-0212"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0272",
+    "related": [
+      "PROD-0273",
+      "PROD-0274",
+      "PROD-0275",
+      "PROD-0276"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0273",
+    "related": [
+      "PROD-0272",
+      "PROD-0274",
+      "PROD-0275",
+      "PROD-0276"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0274",
+    "related": [
+      "PROD-0272",
+      "PROD-0273",
+      "PROD-0275",
+      "PROD-0276"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0275",
+    "related": [
+      "PROD-0272",
+      "PROD-0273",
+      "PROD-0274",
+      "PROD-0276"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0276",
+    "related": [
+      "PROD-0272",
+      "PROD-0273",
+      "PROD-0274",
+      "PROD-0275"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0277",
+    "related": [
+      "PROD-0272",
+      "PROD-0273",
+      "PROD-0274",
+      "PROD-0275"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0278",
+    "related": [
+      "PROD-0272",
+      "PROD-0273",
+      "PROD-0274",
+      "PROD-0275"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0279",
+    "related": [
+      "PROD-0272",
+      "PROD-0273",
+      "PROD-0274",
+      "PROD-0275"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0280",
+    "related": [
+      "PROD-0272",
+      "PROD-0273",
+      "PROD-0274",
+      "PROD-0275"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0281",
+    "related": [
+      "PROD-0272",
+      "PROD-0273",
+      "PROD-0274",
+      "PROD-0275"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0282",
+    "related": [
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285",
+      "PROD-0286"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0283",
+    "related": [
+      "PROD-0282",
+      "PROD-0284",
+      "PROD-0285",
+      "PROD-0286"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0284",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0285",
+      "PROD-0286"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0285",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0286"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0286",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0287",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0288",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0289",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0290",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0291",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0292",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0293",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0294",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0295",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0296",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0297",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0298",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0299",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0300",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0301",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0302",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0303",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0304",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0305",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0306",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0307",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0308",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0309",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0310",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0311",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0312",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0313",
+    "related": [
+      "PROD-0282",
+      "PROD-0283",
+      "PROD-0284",
+      "PROD-0285"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0314",
+    "related": [
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355",
+      "PROD-0318"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0315",
+    "related": [
+      "PROD-0314",
+      "PROD-0316",
+      "PROD-0355",
+      "PROD-0318"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0316",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0355",
+      "PROD-0318"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0317",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0318"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0318",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0319",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0320",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0321",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0322",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0323",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0324",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0325",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0326",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0327",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0328",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0329",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0330",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0331",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0332",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0333",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0334",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0335",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0336",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0337",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0338",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0339",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0340",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0341",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0342",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0343",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0344",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0345",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0346",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0347",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0348",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0349",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0350",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0351",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0352",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0353",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0354",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0355",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0356",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0357",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0358",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0359",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0360",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0361",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0362",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0363",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0364",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0365",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0366",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0367",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0368",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0369",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0370",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0371",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0372",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0373",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0374",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0375",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0376",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0377",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0378",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0379",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0380",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0381",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0382",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0383",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0384",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0385",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0386",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0387",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0388",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0389",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0390",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0391",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0392",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0393",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0394",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0395",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0396",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0397",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0398",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0399",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0400",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0401",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0402",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0403",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0404",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0405",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0406",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0407",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0408",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0409",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0410",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0411",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0412",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0413",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0414",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0415",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0416",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0417",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0418",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0419",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0420",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0421",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0422",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0423",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0424",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0425",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0426",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0427",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0428",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0429",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0430",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0431",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0432",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0433",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0434",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0435",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0436",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0437",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0438",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0439",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0440",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0441",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0442",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0443",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0444",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0445",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0446",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0447",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0448",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0449",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0450",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0451",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0452",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0453",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0454",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0455",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0456",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0457",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0458",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0459",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0460",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0461",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0462",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0463",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0464",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0465",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0466",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0467",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0468",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0469",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0470",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0471",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0472",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0473",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0474",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0475",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0476",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0477",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0478",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0479",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0480",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0481",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0482",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0483",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0484",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0485",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0486",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0487",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0488",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0489",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0490",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0491",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0492",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0493",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0494",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0495",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0496",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0497",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0498",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0499",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0500",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0501",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0502",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0503",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0504",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0505",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0506",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0507",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0508",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0509",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0510",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0511",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0512",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0513",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0514",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0515",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0516",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0517",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0518",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0519",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0520",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0521",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0522",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0523",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0524",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0525",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0526",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0527",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0528",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0529",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0530",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0531",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0532",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0533",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0534",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0535",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0536",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0537",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0538",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0539",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0540",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0541",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0542",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0543",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0544",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0545",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0546",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0547",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0548",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0549",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0550",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0551",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0552",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0553",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0554",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0555",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0556",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0557",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0558",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0559",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0560",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0561",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0562",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0563",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0564",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0565",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0566",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0567",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0568",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0569",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0570",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0571",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0572",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0573",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0574",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0575",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0576",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0577",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0578",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0579",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0580",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0581",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0582",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0583",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0584",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0585",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0586",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0587",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0588",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0589",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0590",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0591",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0592",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0593",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0594",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0595",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0596",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0597",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0598",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0599",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0600",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0601",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0602",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0603",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0604",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0605",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0606",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0607",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0608",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0609",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0610",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0611",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0612",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0613",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0614",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0615",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0616",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0617",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0618",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0619",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0620",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0621",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0622",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0623",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0624",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0625",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0626",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0627",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0628",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0629",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0630",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0631",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0632",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0633",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0634",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0635",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0636",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0637",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0638",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0639",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0640",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0641",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0642",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0643",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0644",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0645",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0646",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0647",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0648",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0649",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0650",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0651",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0652",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0653",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0654",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0655",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0656",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0657",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0658",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0659",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0660",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0661",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0662",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0663",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0664",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0665",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0666",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0667",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0668",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0669",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0670",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0671",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0672",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0673",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0674",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0675",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0676",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0677",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0678",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0679",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0680",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0681",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0682",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0683",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0684",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0685",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0686",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0687",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0688",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0689",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0690",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0691",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0692",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0693",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0694",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0695",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0696",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0697",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0698",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0699",
+    "related": [
+      "PROD-0314",
+      "PROD-0315",
+      "PROD-0316",
+      "PROD-0355"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0700",
+    "related": [
+      "PROD-0701",
+      "PROD-0702",
+      "PROD-0703",
+      "PROD-0704"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0701",
+    "related": [
+      "PROD-0700",
+      "PROD-0702",
+      "PROD-0703",
+      "PROD-0704"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0702",
+    "related": [
+      "PROD-0700",
+      "PROD-0701",
+      "PROD-0703",
+      "PROD-0704"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0703",
+    "related": [
+      "PROD-0700",
+      "PROD-0701",
+      "PROD-0702",
+      "PROD-0704"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0704",
+    "related": [
+      "PROD-0700",
+      "PROD-0701",
+      "PROD-0702",
+      "PROD-0703"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0705",
+    "related": [
+      "PROD-0700",
+      "PROD-0701",
+      "PROD-0702",
+      "PROD-0703"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0706",
+    "related": [
+      "PROD-0700",
+      "PROD-0701",
+      "PROD-0702",
+      "PROD-0703"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0707",
+    "related": [
+      "PROD-0700",
+      "PROD-0701",
+      "PROD-0702",
+      "PROD-0703"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0708",
+    "related": [
+      "PROD-0700",
+      "PROD-0701",
+      "PROD-0702",
+      "PROD-0703"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0709",
+    "related": [
+      "PROD-0700",
+      "PROD-0701",
+      "PROD-0702",
+      "PROD-0703"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0710",
+    "related": [
+      "PROD-0700",
+      "PROD-0701",
+      "PROD-0702",
+      "PROD-0703"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0711",
+    "related": [
+      "PROD-0712",
+      "PROD-0713",
+      "PROD-0714",
+      "PROD-0715"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0712",
+    "related": [
+      "PROD-0711",
+      "PROD-0713",
+      "PROD-0714",
+      "PROD-0715"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0713",
+    "related": [
+      "PROD-0711",
+      "PROD-0712",
+      "PROD-0714",
+      "PROD-0715"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0714",
+    "related": [
+      "PROD-0711",
+      "PROD-0712",
+      "PROD-0713",
+      "PROD-0715"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0715",
+    "related": [
+      "PROD-0711",
+      "PROD-0712",
+      "PROD-0713",
+      "PROD-0714"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0716",
+    "related": [
+      "PROD-0711",
+      "PROD-0712",
+      "PROD-0713",
+      "PROD-0714"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0717",
+    "related": [
+      "PROD-0711",
+      "PROD-0712",
+      "PROD-0713",
+      "PROD-0714"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0718",
+    "related": [
+      "PROD-0711",
+      "PROD-0712",
+      "PROD-0713",
+      "PROD-0714"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0719",
+    "related": [
+      "PROD-0711",
+      "PROD-0712",
+      "PROD-0713",
+      "PROD-0714"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0720",
+    "related": [
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723",
+      "PROD-0724"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0721",
+    "related": [
+      "PROD-0720",
+      "PROD-0722",
+      "PROD-0723",
+      "PROD-0724"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0722",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0723",
+      "PROD-0724"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0723",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0724"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0724",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0725",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0726",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0727",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0728",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0729",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0730",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0731",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0732",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0733",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0734",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0735",
+    "related": [
+      "PROD-0720",
+      "PROD-0721",
+      "PROD-0722",
+      "PROD-0723"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0736",
+    "related": [
+      "PROD-0737",
+      "PROD-0738",
+      "PROD-0739",
+      "PROD-0740"
+    ],
+    "criterion": "Misma subcategoría y división"
+  },
+  {
+    "productId": "PROD-0737",
+    "related": [
+      "PROD-0736",
+      "PROD-0738",
+      "PROD-0739",
+      "PROD-0740"
+    ],
+    "criterion": "Misma subcategoría y división"
+  },
+  {
+    "productId": "PROD-0738",
+    "related": [
+      "PROD-0736",
+      "PROD-0737",
+      "PROD-0739",
+      "PROD-0740"
+    ],
+    "criterion": "Misma subcategoría y división"
+  },
+  {
+    "productId": "PROD-0739",
+    "related": [
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742",
+      "PROD-0743"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0740",
+    "related": [
+      "PROD-0739",
+      "PROD-0741",
+      "PROD-0742",
+      "PROD-0743"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0741",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0742",
+      "PROD-0743"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0742",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0743"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0743",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0744",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0745",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0746",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0747",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0748",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0749",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0750",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0751",
+    "related": [
+      "PROD-0739",
+      "PROD-0740",
+      "PROD-0741",
+      "PROD-0742"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0752",
+    "related": [
+      "PROD-0736",
+      "PROD-0737",
+      "PROD-0738",
+      "PROD-0739"
+    ],
+    "criterion": "Misma subcategoría y división"
+  },
+  {
+    "productId": "PROD-0753",
+    "related": [
+      "PROD-0736",
+      "PROD-0737",
+      "PROD-0738",
+      "PROD-0739"
+    ],
+    "criterion": "Misma subcategoría y división"
+  },
+  {
+    "productId": "PROD-0754",
+    "related": [
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757",
+      "PROD-0758"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0755",
+    "related": [
+      "PROD-0771",
+      "PROD-0756",
+      "PROD-0757",
+      "PROD-0758"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0756",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0757",
+      "PROD-0758"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0757",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0758"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0758",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0759",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0760",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0761",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0762",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0763",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0764",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0765",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0766",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0767",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0768",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0769",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0770",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0771",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0772",
+    "related": [
+      "PROD-0771",
+      "PROD-0755",
+      "PROD-0756",
+      "PROD-0757"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0773",
+    "related": [
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776",
+      "PROD-0777"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0774",
+    "related": [
+      "PROD-0773",
+      "PROD-0775",
+      "PROD-0776",
+      "PROD-0777"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0775",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0776",
+      "PROD-0777"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0776",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0777"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0777",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0778",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0779",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0780",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0781",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0782",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0783",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0784",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0785",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0786",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0787",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0788",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0789",
+    "related": [
+      "PROD-0773",
+      "PROD-0774",
+      "PROD-0775",
+      "PROD-0776"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0790",
+    "related": [
+      "PROD-0791",
+      "PROD-0792",
+      "PROD-0793",
+      "PROD-0794"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0791",
+    "related": [
+      "PROD-0790",
+      "PROD-0792",
+      "PROD-0793",
+      "PROD-0794"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0792",
+    "related": [
+      "PROD-0790",
+      "PROD-0791",
+      "PROD-0793",
+      "PROD-0794"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0793",
+    "related": [
+      "PROD-0790",
+      "PROD-0791",
+      "PROD-0792",
+      "PROD-0794"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0794",
+    "related": [
+      "PROD-0790",
+      "PROD-0791",
+      "PROD-0792",
+      "PROD-0793"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0795",
+    "related": [
+      "PROD-0790",
+      "PROD-0791",
+      "PROD-0792",
+      "PROD-0793"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0796",
+    "related": [
+      "PROD-0790",
+      "PROD-0791",
+      "PROD-0792",
+      "PROD-0793"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0797",
+    "related": [
+      "PROD-0790",
+      "PROD-0791",
+      "PROD-0792",
+      "PROD-0793"
+    ],
+    "criterion": "Misma subcategoría"
+  },
+  {
+    "productId": "PROD-0798",
+    "related": [
+      "PROD-0790",
+      "PROD-0791",
+      "PROD-0792",
+      "PROD-0793"
+    ],
+    "criterion": "Misma subcategoría"
+  }
+]

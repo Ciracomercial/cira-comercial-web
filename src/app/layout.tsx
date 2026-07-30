@@ -4,8 +4,12 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Productos de Limpieza para Hogar y Negocio en Nuevo Casas Grandes | Cira Comercial",
-  description: "Compra productos de limpieza, desechables, detergentes y soluciones para hogar, negocio e industria en Nuevo Casas Grandes. Cotiza por WhatsApp y solicita entrega local.",
+  title: {
+    default: "Cira Comercial | Productos de limpieza en Nuevo Casas Grandes",
+    template: "%s | Cira Comercial",
+  },
+  description: "Productos de limpieza, jarciería, desechables, papel institucional y soluciones para hogar y negocio en Nuevo Casas Grandes, Chihuahua.",
+  applicationName: "Cira Comercial",
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -13,15 +17,15 @@ export const metadata: Metadata = {
     locale: "es_MX",
     url: "/",
     siteName: "Cira Comercial",
-    title: "Productos de Limpieza para Hogar y Negocio en Nuevo Casas Grandes | Cira Comercial",
-    description: "Compra productos de limpieza, desechables, detergentes y soluciones para hogar, negocio e industria en Nuevo Casas Grandes. Cotiza por WhatsApp y solicita entrega local.",
-    images: [{ url: "/assets/business/interior-tienda.jpg", width: 1200, height: 560, alt: "Interior de Cira Comercial en Nuevo Casas Grandes" }],
+    title: "Cira Comercial | Productos de limpieza en Nuevo Casas Grandes",
+    description: "Productos de limpieza, jarciería, desechables, papel institucional y soluciones para hogar y negocio en Nuevo Casas Grandes, Chihuahua.",
+    images: [{ url: "/images/og-cira-comercial.jpg", width: 1200, height: 630, alt: "Cira Comercial, productos de limpieza en Nuevo Casas Grandes" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Productos de Limpieza para Hogar y Negocio en Nuevo Casas Grandes | Cira Comercial",
-    description: "Compra productos de limpieza, desechables, detergentes y soluciones para hogar, negocio e industria en Nuevo Casas Grandes. Cotiza por WhatsApp y solicita entrega local.",
-    images: ["/assets/business/interior-tienda.jpg"],
+    title: "Cira Comercial | Productos de limpieza en Nuevo Casas Grandes",
+    description: "Productos de limpieza, jarciería, desechables, papel institucional y soluciones para hogar y negocio en Nuevo Casas Grandes, Chihuahua.",
+    images: ["/images/og-cira-comercial.jpg"],
   },
   manifest: "/manifest.webmanifest",
 };

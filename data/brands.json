@@ -1,0 +1,296 @@
+[
+  {
+    "name": "3M",
+    "slug": "3m",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Air Wick",
+    "slug": "air-wick",
+    "type": "distributed",
+    "productCount": 6
+  },
+  {
+    "name": "Airwick",
+    "slug": "airwick",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Ala",
+    "slug": "ala",
+    "type": "distributed",
+    "productCount": 20
+  },
+  {
+    "name": "Alondra",
+    "slug": "alondra",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Anguiplast",
+    "slug": "anguiplast",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Axion",
+    "slug": "axion",
+    "type": "distributed",
+    "productCount": 3
+  },
+  {
+    "name": "Blumen",
+    "slug": "blumen",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Cira",
+    "slug": "cira",
+    "type": "manufacturer",
+    "productCount": 45
+  },
+  {
+    "name": "Cloralex",
+    "slug": "cloralex",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Coffeemate",
+    "slug": "coffeemate",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Dalia",
+    "slug": "dalia",
+    "type": "distributed",
+    "productCount": 8
+  },
+  {
+    "name": "Dart",
+    "slug": "dart",
+    "type": "distributed",
+    "productCount": 5
+  },
+  {
+    "name": "Downy",
+    "slug": "downy",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Energizer",
+    "slug": "energizer",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Ensueño",
+    "slug": "ensueno",
+    "type": "distributed",
+    "productCount": 3
+  },
+  {
+    "name": "Fabuloso",
+    "slug": "fabuloso",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Fapsa",
+    "slug": "fapsa",
+    "type": "distributed",
+    "productCount": 3
+  },
+  {
+    "name": "Febreze",
+    "slug": "febreze",
+    "type": "distributed",
+    "productCount": 4
+  },
+  {
+    "name": "Foca",
+    "slug": "foca",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Glade",
+    "slug": "glade",
+    "type": "distributed",
+    "productCount": 7
+  },
+  {
+    "name": "Harpic",
+    "slug": "harpic",
+    "type": "distributed",
+    "productCount": 3
+  },
+  {
+    "name": "Jaguar",
+    "slug": "jaguar",
+    "type": "distributed",
+    "productCount": 10
+  },
+  {
+    "name": "Kert",
+    "slug": "kert",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Klaren",
+    "slug": "klaren",
+    "type": "distributed",
+    "productCount": 5
+  },
+  {
+    "name": "Kleenex",
+    "slug": "kleenex",
+    "type": "distributed",
+    "productCount": 5
+  },
+  {
+    "name": "Lysol",
+    "slug": "lysol",
+    "type": "distributed",
+    "productCount": 4
+  },
+  {
+    "name": "Maquisa",
+    "slug": "maquisa",
+    "type": "distributed",
+    "productCount": 7
+  },
+  {
+    "name": "Member",
+    "slug": "member",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Nescafe",
+    "slug": "nescafe",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Odoban",
+    "slug": "odoban",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Ok Plastic",
+    "slug": "ok-plastic",
+    "type": "distributed",
+    "productCount": 3
+  },
+  {
+    "name": "Palmolive",
+    "slug": "palmolive",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Pinol",
+    "slug": "pinol",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Pledge",
+    "slug": "pledge",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Raid",
+    "slug": "raid",
+    "type": "distributed",
+    "productCount": 2
+  },
+  {
+    "name": "Reyma",
+    "slug": "reyma",
+    "type": "distributed",
+    "productCount": 11
+  },
+  {
+    "name": "Roma",
+    "slug": "roma",
+    "type": "distributed",
+    "productCount": 16
+  },
+  {
+    "name": "Rubbermaid",
+    "slug": "rubbermaid",
+    "type": "distributed",
+    "productCount": 3
+  },
+  {
+    "name": "Sablon",
+    "slug": "sablon",
+    "type": "distributed",
+    "productCount": 6
+  },
+  {
+    "name": "Scotch Brite",
+    "slug": "scotch-brite",
+    "type": "distributed",
+    "productCount": 8
+  },
+  {
+    "name": "Scott",
+    "slug": "scott",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Suavitel",
+    "slug": "suavitel",
+    "type": "distributed",
+    "productCount": 4
+  },
+  {
+    "name": "Vanish",
+    "slug": "vanish",
+    "type": "distributed",
+    "productCount": 3
+  },
+  {
+    "name": "Vikan",
+    "slug": "vikan",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Weiman",
+    "slug": "weiman",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Wiese",
+    "slug": "wiese",
+    "type": "distributed",
+    "productCount": 6
+  },
+  {
+    "name": "Zulka",
+    "slug": "zulka",
+    "type": "distributed",
+    "productCount": 1
+  },
+  {
+    "name": "Por confirmar",
+    "slug": "por-confirmar",
+    "type": "distributed",
+    "productCount": 566
+  }
+]

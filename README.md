@@ -4,44 +4,33 @@ Sitio web de Cira Comercial creado con Next.js, TypeScript y Tailwind CSS.
 
 ## Requisitos
 
-- Node.js 20 o posterior
-- pnpm 9 o posterior
+- Node.js 22 LTS (también compatible con Node.js 20.9 a 24)
+- pnpm 11.17.0
 
 ## Desarrollo local
 
 ```bash
-pnpm install
+pnpm install --frozen-lockfile
 pnpm dev
 ```
-
-Abre [http://localhost:3000](http://localhost:3000). Si el puerto está ocupado, Next.js elegirá otro y lo mostrará en la terminal.
 
 ## Validación y producción
 
 ```bash
 pnpm lint
+pnpm typecheck
 pnpm build
 pnpm start
 ```
 
-`pnpm start` sirve la compilación de producción creada por `pnpm build`.
+`pnpm start` sirve la compilación de producción y usa el puerto proporcionado por el entorno mediante `PORT` cuando exista.
 
-## Publicación en Vercel
+## Publicación en Hostinger
 
-1. Sube este proyecto a un repositorio Git.
-2. En Vercel, selecciona **Add New → Project** e importa el repositorio.
-3. Vercel detectará Next.js automáticamente.
-4. Mantén los comandos predeterminados: `pnpm build` para compilar y `pnpm start` para ejecución local de producción.
-5. Revisa la vista previa y publica el proyecto.
+El sitio debe desplegarse como aplicación Next.js con Node.js. Consulta [DEPLOYMENT.md](DEPLOYMENT.md) para el flujo completo de Hostinger, SSL y dominio.
 
-No conectes un dominio hasta confirmar la publicación. Cuando llegue el momento, configura el dominio desde el panel de Vercel; la URL pública actual está centralizada en `src/lib/site.ts`.
+## Datos del negocio y categorías
 
-## Datos del negocio
+Edita `src/lib/site.ts` para actualizar los datos públicos del negocio. Las categorías visibles se definen en `src/lib/product-categories.ts` y sus recursos en `public/assets/`.
 
-Edita [src/lib/site.ts](src/lib/site.ts) para cambiar el nombre, URL, teléfono, WhatsApp, correo, dirección u horarios. Las rutas SEO, enlaces de contacto y datos estructurados reutilizan esa configuración.
-
-## Catálogo
-
-Las categorías y productos visibles están definidos en [src/components/catalog.tsx](src/components/catalog.tsx). Agrega futuras categorías o productos a ese arreglo, con una imagen optimizada en `public/assets/products/`.
-
-Los recursos públicos usados por el sitio se encuentran en `public/assets/`. Las carpetas originales `Logo/`, `Negocio/` y `Referencias/` se conservan como fuente de referencia y no se exponen como recursos públicos del sitio.
+Las carpetas originales `Logo/`, `Negocio/` y `Referencias/` se conservan como fuente de referencia y no se exponen públicamente.
