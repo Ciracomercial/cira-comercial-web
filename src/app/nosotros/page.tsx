@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Nosotros",
   description: "Conoce Cira Comercial, proveedor local de productos de limpieza, jarciería, desechables y soluciones para hogar y negocio en Nuevo Casas Grandes.",
   alternates: { canonical: "/nosotros" },
+  openGraph: { url: "/nosotros" },
 };
 
 const offerings = [

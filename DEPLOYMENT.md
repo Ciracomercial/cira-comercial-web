@@ -33,14 +33,14 @@ La versión actual no requiere variables de entorno. Mantén `.env.example` como
 5. Configura la redirección permanente de `www.ciracomercial.com` a `ciracomercial.com` desde hPanel. No crees una segunda redirección equivalente en Next.js.
 6. Cuando HTTPS ya esté activo para ambos hostnames, activa HSTS desde hPanel o la configuración del proxy, si está disponible.
 
-La versión canónica ya está centralizada como `https://ciracomercial.com` en `src/lib/site.ts`.
+La versión canónica ya está centralizada como `https://www.ciracomercial.com` en `src/lib/site.ts`.
 
 ## Validación después de publicar
 
 - Abre Inicio, Productos, Nosotros, Contacto y Aviso de privacidad.
 - Prueba una ruta inexistente y confirma la página 404.
 - Prueba `/productos/categoria/albercas` y `/productos/ejemplo`; ambas deben redirigir a `/productos`.
-- Confirma `https://ciracomercial.com/robots.txt` y `https://ciracomercial.com/sitemap.xml`.
+- Confirma `https://www.ciracomercial.com/robots.txt` y `https://www.ciracomercial.com/sitemap.xml`.
 - Comprueba WhatsApp, teléfono, correo y el enlace de Google Maps desde móvil y escritorio.
 - Verifica que el mapa cargue y que el formulario abra WhatsApp sin almacenar información.
 - Vacía la caché/CDN de Hostinger después de cada actualización relevante.

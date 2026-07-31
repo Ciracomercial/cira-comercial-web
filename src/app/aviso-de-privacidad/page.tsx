@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Aviso de Privacidad",
   description: "Consulta cómo Cira Comercial utiliza y protege los datos proporcionados a través de su sitio web.",
   alternates: { canonical: "/aviso-de-privacidad" },
+  openGraph: { url: "/aviso-de-privacidad" },
   robots: { index: true, follow: true },
 };
 

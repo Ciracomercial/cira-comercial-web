@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Categorías de productos de limpieza",
   description: "Consulta las categorías disponibles en Cira Comercial: limpieza para el hogar, albercas, aromatizantes, bolsas, jarciería, desechables y más.",
   alternates: { canonical: "/productos" },
+  openGraph: { url: "/productos" },
 };
 
 export default function ProductsPage() {

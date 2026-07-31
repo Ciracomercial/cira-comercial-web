@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Contacto",
   description: "Contacta a Cira Comercial por WhatsApp, teléfono o correo. Visítanos en Nuevo Casas Grandes, Chihuahua.",
   alternates: { canonical: "/contacto" },
+  openGraph: { url: "/contacto" },
 };
 
 export default function ContactPage() {

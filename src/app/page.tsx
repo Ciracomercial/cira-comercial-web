@@ -12,7 +12,7 @@ import { business, googleMapsUrl, siteUrl, whatsappUrl } from "../lib/site";
 export const metadata: Metadata = {
   title: { absolute: "Productos de limpieza en Nuevo Casas Grandes | Cira Comercial" },
   description: "Productos de limpieza para hogar, negocio e industria en Nuevo Casas Grandes. Cira Comercial ofrece jarciería, desechables y atención personalizada.",
-  alternates: { canonical: "/" },
+  alternates: { canonical: `${siteUrl}/` },
   openGraph: {
     title: "Productos de limpieza en Nuevo Casas Grandes | Cira Comercial",
     description: "Productos de limpieza para hogar, negocio e industria en Nuevo Casas Grandes. Cira Comercial ofrece jarciería, desechables y atención personalizada.",
