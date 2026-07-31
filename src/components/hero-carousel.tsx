@@ -6,17 +6,17 @@ import { whatsappUrl } from "../lib/site";
 
 const heroSlides = [
   {
-    image: "/assets/hero/hero-01.svg",
+    image: "/assets/hero/hero-1.webp",
     alt: "Productos de limpieza y desechables disponibles en Cira Comercial",
     objectPosition: "center",
   },
   {
-    image: "/assets/hero/hero-02.svg",
+    image: "/assets/hero/hero-2.webp",
     alt: "Surtido de productos de limpieza para hogar y negocio",
     objectPosition: "65% center",
   },
   {
-    image: "/assets/hero/hero-03.svg",
+    image: "/assets/hero/hero-3.webp",
     alt: "Artículos de limpieza y jarciería en exhibición en Cira Comercial",
     objectPosition: "center 40%",
   },
@@ -26,13 +26,16 @@ const SLIDE_INTERVAL = 5000;
 
 export function HeroCarousel() {
   const [activeSlide, setActiveSlide] = useState(0);
+  const [loadedSlides, setLoadedSlides] = useState<ReadonlySet<number>>(() => new Set([0]));
   const [isHovered, setIsHovered] = useState(false);
   const [isDocumentVisible, setIsDocumentVisible] = useState(true);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const [pointerStartX, setPointerStartX] = useState<number | null>(null);
 
   const goToSlide = useCallback((index: number) => {
-    setActiveSlide((index + heroSlides.length) % heroSlides.length);
+    const nextSlide = (index + heroSlides.length) % heroSlides.length;
+    setLoadedSlides((currentSlides) => new Set(currentSlides).add(nextSlide));
+    setActiveSlide(nextSlide);
   }, []);
 
   useEffect(() => {
@@ -55,7 +58,11 @@ export function HeroCarousel() {
     if (isHovered || !isDocumentVisible || prefersReducedMotion) return;
 
     const interval = window.setInterval(() => {
-      setActiveSlide((currentSlide) => (currentSlide + 1) % heroSlides.length);
+      setActiveSlide((currentSlide) => {
+        const nextSlide = (currentSlide + 1) % heroSlides.length;
+        setLoadedSlides((currentSlides) => new Set(currentSlides).add(nextSlide));
+        return nextSlide;
+      });
     }, SLIDE_INTERVAL);
 
     return () => window.clearInterval(interval);
@@ -79,7 +86,7 @@ export function HeroCarousel() {
       <div className="hero-carousel-slides" aria-live="off">
         {heroSlides.map((slide, index) => (
           <div className={index === activeSlide ? "hero-slide is-active" : "hero-slide"} key={slide.image} aria-hidden={index !== activeSlide}>
-            <Image src={slide.image} alt={index === activeSlide ? slide.alt : ""} fill priority={index === 0} loading={index === 0 ? undefined : "lazy"} sizes="100vw" quality={80} style={{ objectPosition: slide.objectPosition }} />
+            {loadedSlides.has(index) ? <Image src={slide.image} alt={index === activeSlide ? slide.alt : ""} fill priority={index === 0} fetchPriority={index === 0 ? "high" : undefined} loading={index === 0 ? undefined : "lazy"} sizes="100vw" quality={80} style={{ objectPosition: slide.objectPosition }} /> : null}
           </div>
         ))}
       </div>
