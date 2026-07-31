@@ -17,7 +17,7 @@ const nextConfig: NextConfig = {
           { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=()" },
           {
             key: "Content-Security-Policy",
-            value: `default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data: blob: https:; frame-src https://www.google.com; script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self' https:`,
+            value: `default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data: blob: https: https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://www.google.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com${isDev ? " 'unsafe-eval'" : ""}; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self' https: https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com`,
           },
         ],
       },
