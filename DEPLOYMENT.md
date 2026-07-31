@@ -22,7 +22,17 @@ En hPanel crea una **Node.js Web App** y selecciona el framework Next.js si Host
 - Inicio: `pnpm start`
 - Puerto: no fijes un puerto. Hostinger proporciona `PORT` y `next start` lo respeta.
 
-La versión actual no requiere variables de entorno. Mantén `.env.example` como referencia y nunca subas `.env`, `.env.local` o credenciales.
+Mantén `.env.example` como referencia y nunca subas `.env`, `.env.local` o credenciales.
+
+## Google Analytics 4 en Vercel
+
+En Vercel, abre **Project Settings → Environment Variables** y agrega la siguiente variable para el entorno **Production**:
+
+```text
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-V93E3H0KG7
+```
+
+La integración usa el componente oficial `GoogleAnalytics` de Next.js y solo se carga cuando la variable existe. Vuelve a desplegar después de guardarla.
 
 ## Dominio y HTTPS
 

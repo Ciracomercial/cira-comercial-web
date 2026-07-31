@@ -25,6 +25,18 @@ pnpm start
 
 `pnpm start` sirve la compilación de producción y usa el puerto proporcionado por el entorno mediante `PORT` cuando exista.
 
+## Google Analytics 4
+
+La integración oficial de Next.js carga Analytics únicamente si existe `NEXT_PUBLIC_GA_MEASUREMENT_ID`.
+
+Para producción en Vercel, agrega esta variable de entorno en **Project Settings → Environment Variables** y selecciónala para Production:
+
+```text
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-V93E3H0KG7
+```
+
+No subas archivos `.env` o `.env.local` al repositorio.
+
 ## Publicación en Hostinger
 
 El sitio debe desplegarse como aplicación Next.js con Node.js. Consulta [DEPLOYMENT.md](DEPLOYMENT.md) para el flujo completo de Hostinger, SSL y dominio.

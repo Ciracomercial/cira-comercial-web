@@ -67,6 +67,7 @@ const structuredData = {
       url: siteUrl,
       logo: `${siteUrl}${business.logoPath}`,
       image: `${siteUrl}/assets/business/interior-tienda.jpg`,
+      priceRange: "$-$$",
       description: "Productos de limpieza, desechables y soluciones para hogar, negocio e industria en Nuevo Casas Grandes, Chihuahua.",
       telephone: business.phone,
       email: business.email,

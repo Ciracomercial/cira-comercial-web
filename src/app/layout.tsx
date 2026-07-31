@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { siteUrl } from "../lib/site";
 import "./globals.css";
 
 const siteDescription = "Productos de limpieza para hogar, negocio e industria en Nuevo Casas Grandes. Cira Comercial ofrece jarciería, desechables y atención personalizada.";
+const googleAnalyticsId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -37,7 +39,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es-MX" data-scroll-behavior="smooth">
-      <body>{children}</body>
+      <body>
+        {children}
+        {googleAnalyticsId ? <GoogleAnalytics gaId={googleAnalyticsId} /> : null}
+      </body>
     </html>
   );
 }
