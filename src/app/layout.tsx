@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { RevealProvider } from "../components/reveal-provider";
 import { siteUrl } from "../lib/site";
 import "./globals.css";
 
@@ -41,6 +42,7 @@ export default function RootLayout({
     <html lang="es-MX" data-scroll-behavior="smooth">
       <body>
         {children}
+        <RevealProvider />
         {googleAnalyticsId ? <GoogleAnalytics gaId={googleAnalyticsId} /> : null}
       </body>
     </html>

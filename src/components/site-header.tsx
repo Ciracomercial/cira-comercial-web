@@ -19,15 +19,26 @@ export function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const menuToggleRef = useRef<HTMLButtonElement>(null);
+  const scrollFrameRef = useRef<number | null>(null);
   const pathname = usePathname();
 
   const closeMenu = () => setIsOpen(false);
 
   useEffect(() => {
-    const updateHeader = () => setIsScrolled(window.scrollY > 12);
-    updateHeader();
+    const updateHeader = () => {
+      if (scrollFrameRef.current !== null) return;
+
+      scrollFrameRef.current = window.requestAnimationFrame(() => {
+        scrollFrameRef.current = null;
+        setIsScrolled(window.scrollY > 12);
+      });
+    };
+
     window.addEventListener("scroll", updateHeader, { passive: true });
-    return () => window.removeEventListener("scroll", updateHeader);
+    return () => {
+      window.removeEventListener("scroll", updateHeader);
+      if (scrollFrameRef.current !== null) window.cancelAnimationFrame(scrollFrameRef.current);
+    };
   }, []);
 
   useEffect(() => {

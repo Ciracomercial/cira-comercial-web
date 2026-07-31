@@ -228,9 +228,23 @@ footer { padding: 60px 0 22px; color: #fff; background: #171f49; } footer p { co
 /* Accesibilidad y semántica del contenido de Inicio. */
 .product-category-card-content h3 { max-width: 240px; margin: 0 auto; font-size: 1.35rem; line-height: 1.06; letter-spacing: -.025em; }
 
+/* El acordeón nativo conserva el diseño sin requerir JavaScript de cliente. */
+.faq-item { margin: 0; }
+.faq-item summary { display: flex; width: 100%; min-height: 60px; align-items: center; justify-content: space-between; gap: 20px; padding: 17px 3px; border-radius: 8px; color: var(--ink); background: transparent; cursor: pointer; font: inherit; font-size: 1.07rem; font-weight: 800; list-style: none; text-align: left; transition: color .2s ease, background .2s ease, padding .2s ease; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary:hover { color: var(--blue); background: rgba(56, 74, 159, .045); }
+.faq-item summary:focus-visible { color: var(--blue); outline: 3px solid rgba(87, 202, 112, .52); outline-offset: -3px; }
+.faq-item[open] .faq-answer { grid-template-rows: 1fr; }
+.faq-item[open] .faq-answer p { margin-bottom: 21px; opacity: 1; transform: translateY(0); }
+.faq-item[open] .faq-symbol { color: #fff; background: var(--blue); transform: rotate(45deg); }
+
 @media (max-width: 900px) {
   .primary-nav { visibility: hidden; }
   .primary-nav.is-open { visibility: visible; }
+}
+
+@media (max-width: 600px) {
+  .faq-item summary { padding-right: 0; font-size: 1rem; }
 }
 
 /* Índice y páginas de categoría */

@@ -86,7 +86,7 @@ export function HeroCarousel() {
       <div className="hero-carousel-slides" aria-live="off">
         {heroSlides.map((slide, index) => (
           <div className={index === activeSlide ? "hero-slide is-active" : "hero-slide"} key={slide.image} aria-hidden={index !== activeSlide}>
-            {loadedSlides.has(index) ? <Image src={slide.image} alt={index === activeSlide ? slide.alt : ""} fill priority={index === 0} fetchPriority={index === 0 ? "high" : undefined} loading={index === 0 ? undefined : "lazy"} sizes="100vw" quality={80} style={{ objectPosition: slide.objectPosition }} /> : null}
+            {loadedSlides.has(index) ? <Image src={slide.image} alt={index === activeSlide ? slide.alt : ""} fill priority={index === 0} fetchPriority={index === 0 ? "high" : undefined} loading={index === 0 ? undefined : "lazy"} sizes="100vw" quality={75} style={{ objectPosition: slide.objectPosition }} /> : null}
           </div>
         ))}
       </div>
