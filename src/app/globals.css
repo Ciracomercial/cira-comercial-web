@@ -180,6 +180,8 @@ footer { padding: 60px 0 22px; color: #fff; background: #171f49; } footer p { co
 .hero-carousel-dots { gap: 7px; }
 .hero-carousel-dots button { width: 17px; height: 5px; border: 0; border-radius: 999px; background: rgba(255, 255, 255, .55); }
 .hero-carousel-dots button.is-active { width: 28px; background: #fff; }
+.hero-carousel.has-embedded-copy .hero-carousel-overlay { background: rgba(15, 24, 70, .08); }
+.hero-carousel.has-embedded-copy .hero-carousel-content { visibility: hidden; }
 .proof.section, .solutions.section, .catalog.section, .coverage.section, .faq.section { padding-top: 88px; padding-bottom: 88px; }
 .proof-grid > div:first-child > p:not(.eyebrow), .faq-layout > div > p:not(.eyebrow) { max-width: 510px; }
 .stats { gap: 1px; box-shadow: 0 10px 24px rgba(17, 25, 69, .12); }

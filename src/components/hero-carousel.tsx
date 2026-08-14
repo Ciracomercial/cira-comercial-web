@@ -4,7 +4,15 @@ import Image from "next/image";
 import { useCallback, useEffect, useState, type PointerEvent } from "react";
 import { whatsappUrl } from "../lib/site";
 
-const heroSlides = [
+type HeroSlide = {
+  image: string;
+  alt: string;
+  hasEmbeddedCopy?: boolean;
+  objectFit?: "cover" | "contain";
+  objectPosition: string;
+};
+
+const heroSlides: readonly HeroSlide[] = [
   {
     image: "/assets/hero/hero-1.webp",
     alt: "Productos de limpieza y desechables disponibles en Cira Comercial",
@@ -20,7 +28,14 @@ const heroSlides = [
     alt: "Artículos de limpieza y jarciería en exhibición en Cira Comercial",
     objectPosition: "center 40%",
   },
-] as const;
+  {
+    image: "/assets/hero/bouquet2.webp",
+    alt: "Aroma Bouquet Super Concentrado de Cira Comercial en presentación de 125 ml",
+    hasEmbeddedCopy: true,
+    objectFit: "contain",
+    objectPosition: "center",
+  },
+];
 
 const SLIDE_INTERVAL = 5000;
 
@@ -81,12 +96,14 @@ export function HeroCarousel() {
     setPointerStartX(null);
   };
 
+  const activeSlideData = heroSlides[activeSlide];
+
   return (
-    <section className="hero hero-carousel" id="inicio" aria-labelledby="hero-title" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} onPointerDown={handlePointerDown} onPointerUp={handlePointerEnd} onPointerCancel={() => setPointerStartX(null)}>
+    <section className={activeSlideData.hasEmbeddedCopy ? "hero hero-carousel has-embedded-copy" : "hero hero-carousel"} id="inicio" aria-labelledby="hero-title" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} onPointerDown={handlePointerDown} onPointerUp={handlePointerEnd} onPointerCancel={() => setPointerStartX(null)}>
       <div className="hero-carousel-slides" aria-live="off">
         {heroSlides.map((slide, index) => (
           <div className={index === activeSlide ? "hero-slide is-active" : "hero-slide"} key={slide.image} aria-hidden={index !== activeSlide}>
-            {loadedSlides.has(index) ? <Image src={slide.image} alt={index === activeSlide ? slide.alt : ""} fill priority={index === 0} fetchPriority={index === 0 ? "high" : undefined} loading={index === 0 ? undefined : "lazy"} sizes="100vw" quality={75} style={{ objectPosition: slide.objectPosition }} /> : null}
+            {loadedSlides.has(index) ? <Image src={slide.image} alt={index === activeSlide ? slide.alt : ""} fill priority={index === 0} fetchPriority={index === 0 ? "high" : undefined} loading={index === 0 ? undefined : "lazy"} sizes="100vw" quality={75} style={{ objectFit: slide.objectFit ?? "cover", objectPosition: slide.objectPosition }} /> : null}
           </div>
         ))}
       </div>
