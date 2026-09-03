@@ -31,7 +31,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/productos/:slug",
+        source: "/productos/:slug((?!productos-de-limpieza-nuevo-casas-grandes$)[^/]+)",
         destination: "/productos",
         permanent: true,
       },

@@ -16,6 +16,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: siteLastModified,
     },
     {
+      url: `${siteUrl}/productos/productos-de-limpieza-nuevo-casas-grandes`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+      lastModified: siteLastModified,
+    },
+    {
       url: `${siteUrl}/contacto`,
       changeFrequency: "monthly",
       priority: 0.8,
