@@ -1,0 +1,9 @@
+@media (min-width: 601px) {
+  .compactSection.compactSection {
+    padding-block: 80px;
+  }
+
+  .compactMap :global(.location-map) {
+    padding-block: 80px;
+  }
+}
