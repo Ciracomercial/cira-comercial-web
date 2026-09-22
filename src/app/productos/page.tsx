@@ -22,6 +22,8 @@ export default function ProductsPage() {
           <Link className="category-back-link" href="/productos/productos-de-limpieza-nuevo-casas-grandes">Productos de limpieza en Nuevo Casas Grandes</Link>
           <span aria-hidden="true"> · </span>
           <Link className="category-back-link" href="/productos/desechables-nuevo-casas-grandes">Desechables en Nuevo Casas Grandes</Link>
+          <span aria-hidden="true"> · </span>
+          <Link className="category-back-link" href="/productos/vasos-desechables-nuevo-casas-grandes">Vasos desechables en Nuevo Casas Grandes</Link>
         </div>
       </section>
       <SiteFooter />

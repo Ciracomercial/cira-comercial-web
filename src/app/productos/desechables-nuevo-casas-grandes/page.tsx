@@ -131,6 +131,7 @@ export default function DisposableProductsLandingPage() {
           {categories.map((category) => <article className="contact-method-card" key={category}><span className="contact-method-icon" aria-hidden="true">✓</span><h3>{category}</h3><p>Consulta disponibilidad y presentaciones directamente con nuestro equipo.</p></article>)}
         </div>
         <div className="container" style={{ textAlign: "center", marginTop: "32px" }}><a className="button button-primary" href={whatsappUrl} target="_blank" rel="noopener noreferrer">Consultar disponibilidad <span aria-hidden="true">→</span></a></div>
+        <div className="container" style={{ marginTop: "22px", textAlign: "center" }}><Link className="category-back-link" href="/productos/vasos-desechables-nuevo-casas-grandes">Conoce las opciones de vasos desechables en Nuevo Casas Grandes</Link></div>
       </section>
 
       <section className={`coverage section ${styles.compactSection}`} aria-labelledby="landing-businesses-title">
