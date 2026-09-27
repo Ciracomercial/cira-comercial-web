@@ -1,0 +1,20 @@
+.interactive-category-grid { perspective: 1100px; }
+.interactive-category-card { --tilt-x: 0deg; --tilt-y: 0deg; --spot-x: 50%; --spot-y: 50%; position: relative; isolation: isolate; transform: perspective(900px) rotateX(var(--tilt-x)) rotateY(var(--tilt-y)) translateY(0); transform-style: preserve-3d; transition: transform .16s ease-out, box-shadow .25s ease, border-color .25s ease; will-change: transform; }
+.interactive-category-card .product-category-image { overflow: hidden; }
+.interactive-category-card .product-category-image img { transition: transform .45s cubic-bezier(.2,.75,.25,1), filter .35s ease; }
+.interactive-category-card .product-category-card-content { position: relative; z-index: 2; transform: translateZ(18px); }
+.category-interaction-glow { position: absolute; z-index: 1; inset: 0; pointer-events: none; border-radius: inherit; opacity: 0; background: radial-gradient(circle at var(--spot-x) var(--spot-y), rgba(255,255,255,.26), transparent 38%); transition: opacity .2s ease; }
+.category-interaction-cta { display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; color: var(--blue); font-size: .82rem; font-weight: 800; opacity: .72; transition: gap .2s ease, opacity .2s ease; }
+.category-interaction-cta b { display: inline-block; transition: transform .2s ease; }
+@media (hover: hover) and (pointer: fine) {
+  .interactive-category-card:hover { border-color: rgba(56,74,159,.38); transform: perspective(900px) rotateX(var(--tilt-x)) rotateY(var(--tilt-y)) translateY(-7px); box-shadow: 0 24px 48px rgba(25,34,78,.17); }
+  .interactive-category-card:hover .category-interaction-glow { opacity: 1; }
+  .interactive-category-card:hover .product-category-image img { transform: scale(1.065); filter: saturate(1.04); }
+  .interactive-category-card:hover .category-interaction-cta { gap: 12px; opacity: 1; }
+  .interactive-category-card:hover .category-interaction-cta b { transform: translateX(3px); }
+}
+.interactive-category-card:active { transform: perspective(900px) scale(.985); }
+@media (prefers-reduced-motion: reduce) {
+  .interactive-category-card, .interactive-category-card .product-category-image img, .category-interaction-cta, .category-interaction-cta b { transition: none !important; transform: none !important; }
+  .category-interaction-glow { display: none; }
+}
