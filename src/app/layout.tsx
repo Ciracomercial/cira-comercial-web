@@ -3,6 +3,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { RevealProvider } from "../components/reveal-provider";
 import { siteUrl } from "../lib/site";
 import "./globals.css";
+import "./interactive-test.css";
 
 const siteDescription = "Productos de limpieza para hogar, negocio e industria en Nuevo Casas Grandes. Cira Comercial ofrece jarciería, desechables y atención personalizada.";
 const googleAnalyticsId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
