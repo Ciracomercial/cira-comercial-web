@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { RevealProvider } from "../components/reveal-provider";
+import { SiteIntro } from "../components/site-intro";
 import { siteUrl } from "../lib/site";
 import "./globals.css";
 
@@ -35,12 +36,11 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es-MX" data-scroll-behavior="smooth">
       <body>
+        <SiteIntro />
         {children}
         <RevealProvider />
         {googleAnalyticsId ? <GoogleAnalytics gaId={googleAnalyticsId} /> : null}
