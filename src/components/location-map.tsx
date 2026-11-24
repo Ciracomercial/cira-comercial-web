@@ -1,4 +1,4 @@
-import { googleMapsUrl } from "../lib/site";
+import { business, googleMapsUrl } from "../lib/site";
 
 const mapsEmbedUrl = "https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1s30.4184513,-107.9102904";
 
@@ -11,6 +11,7 @@ export function LocationMap() {
           <h2 id="location-map-title">Visítanos</h2>
           <p>Encuentra productos de limpieza, jarciería y soluciones para tu hogar o negocio en nuestra sucursal de Nuevo Casas Grandes, Chihuahua.</p>
           <address className="location-map-address">Jesús Urueta 404, Col. Centro, C.P. 31700, Nuevo Casas Grandes, Chihuahua.</address>
+          <p>{business.hours.weekdays.display}<br />{business.hours.saturday.display}<br />{business.hours.sunday.display}</p>
           <div className="location-map-actions">
             <a className="button button-primary" href={googleMapsUrl} target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">→</span></a>
             <a className="location-map-link" href={googleMapsUrl} target="_blank" rel="noopener noreferrer">Abrir en Google Maps <span aria-hidden="true">↗</span></a>

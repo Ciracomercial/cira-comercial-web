@@ -92,6 +92,7 @@ const structuredData = {
       openingHoursSpecification: [
         { "@type": "OpeningHoursSpecification", dayOfWeek: business.hours.weekdays.days, opens: business.hours.weekdays.opens, closes: business.hours.weekdays.closes },
         { "@type": "OpeningHoursSpecification", dayOfWeek: business.hours.saturday.days, opens: business.hours.saturday.opens, closes: business.hours.saturday.closes },
+        { "@type": "OpeningHoursSpecification", dayOfWeek: business.hours.sunday.days, opens: business.hours.sunday.opens, closes: business.hours.sunday.closes },
       ],
     },
     {
@@ -167,7 +168,7 @@ export default function CleaningProductsLandingPage() {
       <section className={`contact-details-section section ${styles.compactSection}`} aria-labelledby="landing-location-title">
         <div className="container section-heading"><p className="eyebrow">Ubicación y contacto</p><h2 id="landing-location-title">Productos de limpieza en Nuevo Casas Grandes, Chihuahua</h2></div>
         <Reveal className="container contact-details-layout">
-          <div className="contact-address-card"><h3>{business.name}</h3><address>{business.streetAddress}, C.P. {business.postalCode}, {business.city}, {business.state}.</address><p>{business.hours.weekdays.display}<br />{business.hours.saturday.display}</p></div>
+          <div className="contact-address-card"><h3>{business.name}</h3><address>{business.streetAddress}, C.P. {business.postalCode}, {business.city}, {business.state}.</address><p>{business.hours.weekdays.display}<br />{business.hours.saturday.display}<br />{business.hours.sunday.display}</p></div>
           <div className="contact-address-card"><h3>Contáctanos</h3><p><a className="contact-method-link" href={`tel:${business.phone}`}>{business.phoneDisplay}</a></p><p><a className="contact-method-link" href={whatsappUrl} target="_blank" rel="noopener noreferrer">WhatsApp {business.phoneDisplay}</a></p><div className="hero-actions"><a className="button button-secondary" href={googleMapsUrl} target="_blank" rel="noopener noreferrer">Obtener indicaciones <span aria-hidden="true">↗</span></a><a className="button button-primary" href={`tel:${business.phone}`}>Llamar ahora</a></div></div>
         </Reveal>
       </section>

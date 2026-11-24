@@ -16,8 +16,9 @@ export const business = {
   country: "MX",
   logoPath: "/assets/branding/cira-logo.png",
   hours: {
-    weekdays: { display: "Lunes a viernes: 8:00 – 18:00", days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "08:00", closes: "18:00" },
-    saturday: { display: "Sábado: 9:00 – 14:00", days: "Saturday", opens: "09:00", closes: "14:00" },
+    weekdays: { display: "Lunes a viernes: 09:00 – 18:00", days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "09:00", closes: "18:00" },
+    saturday: { display: "Sábado: 09:00 – 14:00", days: "Saturday", opens: "09:00", closes: "14:00" },
+    sunday: { display: "Domingo: Cerrado", days: "Sunday", opens: "00:00", closes: "00:00" },
   },
 } as const;
 
