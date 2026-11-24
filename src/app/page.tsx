@@ -90,6 +90,7 @@ const structuredData = {
       openingHoursSpecification: [
         { "@type": "OpeningHoursSpecification", dayOfWeek: business.hours.weekdays.days, opens: business.hours.weekdays.opens, closes: business.hours.weekdays.closes },
         { "@type": "OpeningHoursSpecification", dayOfWeek: business.hours.saturday.days, opens: business.hours.saturday.opens, closes: business.hours.saturday.closes },
+        { "@type": "OpeningHoursSpecification", dayOfWeek: business.hours.sunday.days, opens: business.hours.sunday.opens, closes: business.hours.sunday.closes },
       ],
     },
     {
